@@ -6,7 +6,10 @@ Well, you see...
 Ehh...
 
 ...
+* Features
+[[file:./med/example-screenshot_2021-12-05.png]]
 
+* Manual
 ** Downloading
 *** git HTTPS
 To get the latest version with git over HTTPS:
