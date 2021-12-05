@@ -8,6 +8,10 @@ Ehh...
 ...
 * Features
 [[file:./med/example-screenshot_2021-12-05.png]]
+- Dynamically fills screen with file names, spaced nicely (mostly).
+- Sort files alphabetically, left to right, top to bottom.
+- No option to not show hidden files, a very honest program...
+- The long flag puts spaces between some file names in a deterministic yet odd way, for your reading pleasure. It's totally not a bug.
 
 * Manual
 ** Downloading
