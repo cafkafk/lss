@@ -6,7 +6,7 @@ all: lss
 
 rebuild: clean all
 
-lss: lss.cpp lss.h
+lss: src/lss.cpp src/lss.h
 	$(GCC) $< -o $@ $(LD_FLAGS)
 
 #	$(GCC) $< *.o -o $@ $(LD_FLAGS)
@@ -14,4 +14,4 @@ lss: lss.cpp lss.h
 #	$(GCC) $< -o $@ $(LD_FLAGS)
 
 clean:
-	rm -rf *.o laa vgcore*
+	rm -rf src/*.o lss src/vgcore*

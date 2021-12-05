@@ -1,0 +1,52 @@
+* lss - ls, but worse
+So, that saying... don't reinvent the wheel.
+
+Well, you see...
+
+Ehh...
+
+...
+
+** Downloading
+*** git HTTPS
+To get the latest version with git over HTTPS:
+#+begin_src sh
+git clone https://github.com/cafkafk/lss.git
+#+end_src
+*** git SSH
+To get the latest version with git over SSH:
+#+begin_src sh
+git clone git@github.com:cafkafk/lss.git
+#+end_src
+
+** Building
+*** Linux
+**** Compiling
+Navigate to your local copy of the repository. When you're in the root directory,
+simply run:
+#+begin_src sh
+make
+#+end_src
+
+And the binary will be built for you in the local directory. You can then move it to any place in your path if you wanna have acces to it globally.
+**** Cleaning
+Navigate to your local copy of the repository. When you're in the root directory,
+simply run:
+#+begin_src sh
+make clean
+#+end_src
+
+This will remove any residual files from compilation as well as the binary.
+
+** Usage
+To use =lss=, just run:
+#+begin_src sh
+./lss
+#+end_src
+
+And you will see the local directory. If you prefer a longer list format:
+#+begin_src sh
+./lss -l
+#+end_src
+
+More options are WIP.
