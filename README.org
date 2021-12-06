@@ -7,7 +7,7 @@ Ehh...
 
 ...
 * Features
-[[file:./med/example-screenshot_2021-12-05.png]]
+#+html: <a href="https://asciinema.org/a/TUJLiqkhFnZZl3KkYa6NXRsCC" target="_blank"><img src="https://asciinema.org/a/TUJLiqkhFnZZl3KkYa6NXRsCC.svg" /></a>
 - Dynamically fills screen with file names, spaced nicely (mostly).
 - Sort files alphabetically, left to right, top to bottom.
 - No option to not show hidden files, a very honest program...
@@ -57,3 +57,4 @@ And you will see the local directory. If you prefer a longer list format:
 #+end_src
 
 More options are WIP.
+[[file:./med/example-screenshot_2021-12-05.png]]
